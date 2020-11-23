@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .logo{
+    margin-left: 100px;
+    font-size: 18px;
+}
+.top .menu a{
+    justify-content: space-around;
+    text-decoration: none;
+    color: #886666;
+    padding-right: 40px;
+    font-weight: bold;
+    
+}
+.top .log .btn{
+   
+    width: 80px;
+    height: 35px;
+    margin-right: 100px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    
+}
+ .top .log .btn:hover{
+    background-color:  #FFE2CF;
+}
+input:active {
+    transform: translateY(8px);
+}
+
+.top .log a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #886666;
+    font-weight: bold;
+
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-text{
+    margin-left: 100px;
+}
+.header .header-text h1{
+    font-weight: bolder;
+    font-size: 69px;
+    line-height: 1;
+}
+.header .header-text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header .header-text .one{
+    background-color: #EEEEEE;
+    width: 120px;
+    height: 40px;
+   outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.header .header-text .one{
+    background-color: #EEEEEE;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.header .header-text .one:hover{
+    background-color:#FFBC37;
+}
+
+
+.header .header-img{
+    margin-right: 100px;
+}
+
+.header .header-img img{
+
+width: 450px;
+}
+
+
+.second-main{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second-main .second-main-text{
+    margin-left: 100px;
+    width: 40%;
+    
+}
+.second-main .second-main-text .second-h1{
+    margin-bottom: 35px;
+    font-size: 37px;
+    line-height: 33px;  
+}
+.second-main .second-main-text a img{
+    width: 40px; float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+.second-main .second-main-text .second-span{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.second-main .second-main-text span{
+    margin-right: 25px;
+   
+}
+.second-main .second-main-text .second-h3{
+  font-size: 25px;
+}
+.second-main .second-main-text h4{
+    margin-top: 20px; margin-bottom: 20px;
+}
+.second-main .second-main-text hr{
+   border-top: 1px;
+    border-color:  black;
+    
+}
+.second-main .second-main-text p{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+
+.second-main .second-main-img{
+    margin-right: 100px;
+}
+
+
+.option{
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.option .option-text{
+    margin-left: 100px;
+    width: 40%;
+}
+.option .option-text H3{
+    font-size: 25PX;
+    margin-bottom: 10px;
+}
+.option .option-btn{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   height: 100px;
+    margin-top: -80px;
+    
+}
+.option .option-btn input{
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #EEEEEE;
+
+}
+.option .option-btn input:hover{
+    background-color: #FFBC37;
+}
+
+.option .option-btn input:active{
+transform: translateY(8px);
+}
+
+
+
+.food{
+    display: flex;
+    width: 100%; height: 60VH;
+    justify-content: space-evenly;
+    align-items: center;
+   
+   
+}
+.food h2{
+    margin-top: 20px; margin-bottom: 14px;
+}
+.food p{
+    width: 90%;
+    font-size: 14px;
+    line-height: 17px;
+}
+.food .food-one{
+    width: 300px;
+    
+    
+    overflow: hidden;
+
+}
+.food .food-two{
+    width: 300px;  
+   
+    overflow: hidden;
+}
+.food .food-three{
+    width: 300px;
+    overflow: hidden;
+}
+
+
+.slider-container{
+    width: 100%; height: 80vh;
+    display: grid;
+    margin-top: 130px;
+    align-items: center;
+
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.slider-container H3{
+    font-size: 25PX;
+    margin-left: 100px;
+    margin-bottom: -30px;
+}
+.slider-container p{
+    width: 30%;
+    margin-left: 100px;
+}
+.slider img{
+    width: 230px;
+    margin-bottom: 8px;
+}
+
+.down{
+    width: 100%; height: 40VH;
+    display: grid;
+
+    background-color: #FFE2CF;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.down-text{
+display: flex;
+justify-content: center;
+width: 100%; 
+align-items: center;
+}
+.down-text .line{
+    margin-left: 10px;
+    line-height: 19px;
+    border-left: 2px black solid;
+    padding-left: 10px;
+
+}
+.down-text .line span{
+    color: #FFBC37;
+    font-weight: bold;
+}
+.down-option{
+    border-top: 1.5px solid rgba(0, 0, 0, 0.5);   border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);;
+    width: 1000PX; height: 10vh; 
+    display: flex; align-items: center; justify-content: center; justify-content: space-evenly;
+}
+.down-option a{
+display: flex;
+   text-decoration: none;
+    color: black;
+}
+
+.down-follow{
+   
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+    margin-top: -45px;
+    width: 1000PX; height: 10vh; 
+    display: flex; align-items: center; 
+}
+.down-follow a img{
+    width: 30px;
+    margin-right: 10px;
+}
+.down-follow h2{
+    margin-left: 120px; margin-right: 20px;
+    font-size: 15px; 
+    font-weight: 800px;
+
+}
+
+
+
+
+@media only screen and (max-width: 414px){
+    body{
+        overflow: hidden;
+        width: 100% !important;
+     height: 1140 !important;
+    }
+    .top{
+        width: 100% !important; height: 10vh;
+        display: flex;
+    }
+    .top .logo{
+        margin-left: 25px;
+    }
+    .top .logo h3{
+        font-size: 20px;
+    }
+
+
+    .menu{
+        display: none;
+    }
+    
+
+    .log{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        height: auto;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+       
+     
+    
+    }
+    .log{
+        margin-right: 25px !important;
+       
+    }
+    .log a{
+        font-size: 11px;
+    }
+    .log .btn{
+   
+        margin-right: -20px;
+        width: 70px !important;
+        height: 4vh !important;
+        
+        font-size: 11px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        
+       
+    }
+
+    .header{
+        width: 100%; height: 40vh;
+       
+        display: flex;
+        
+        align-items: unset;
+        padding-top:20px;
+       
+     
+    }
+    .header .header-img{
+        width: 100%;
+        position: absolute;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        
+        
+    }
+    .header .header-img{
+        margin-right: -205px !important;
+    }
+    .header .header-img img{
+        width: 230px;
+        position: relative;
+        z-index: -1;
+        float: right;
+      
+    }
+    .header .header-text{
+        width: 100%;
+        position: relative;
+        margin-top: 20PX;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+  
+
+    }
+    .header .header-text{
+        margin-left: 25px !important;
+    }
+    .header .header-text P{
+        width: 50%;
+        margin-top: 8PX;
+        margin-bottom: 18PX;
+        font-size: 10PX;
+    }
+
+    .header .header-text h1{
+        font-size: 2rem;
+        margin-left: -5px 0 0;
+    }
+    .header .header-text .one{
+        width: 24%;
+        height: 4vh;
+        border-radius: 8px;
+        font-size: 11px;
+    }
+
+    .second-main{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-main .second-main-text{
+        width: 90%;
+        
+        margin-left: 0 !important;
+        margin-right: 0 !important; 
+        
+    }
+    .second-main .second-main-text{
+        margin-left: 25px !important;
+        margin-right: 25px !important; 
+
+    }
+    .second-main .second-main-img{
+    height: auto;
+        width: 50%;
+        
+    }
+    .option{
+        width: 100%;
+        height: 30vh;
+        display:block;
+        flex-direction: column;
+      
+      
+  
+    
+    }
+.option-text{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+    
+}
+.option-text{
+    margin-left: 25px !important;
+}
+.option-text p{
+    width: 90%;
+}
+
+    .option-btn{
+        width: 100%;
+        height: 30vh !important;
+        display: flex;
+        justify-content: start;
+        
+      
+        
+        
+        
+    }
+    .option-btn .btn-one{
+      width: 66px !important;
+    
+    
+    }
+
+    .food{
+        width: 100% !important;
+        height: auto ;
+        display: grid;
+  
+        height: auto !important;
+    }
+    .food .food-one{
+    
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 100% !important;
+        margin-bottom: 15px;
+        
+    }
+    .food .food-one .text{
+        display: flex;
+       
+        flex-direction: column;
+    }
+    .food .food-one .text p{
+    margin-top: -10px;
+        width:100%;
+        font-size: 12px;
+    }
+    .food .food-one img{
+        width: 150px;
+        padding-right: 20px;
+    }
+
+
+    .food .food-two{
+    
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 15px;
+        width: 100% !important;
+       
+    }
+    .food .food-two .text{
+        display: flex;
+        
+        flex-direction: column;
+    }
+    .food .food-two .text p{
+    margin-top: -10px;
+        width:100%;
+        font-size: 12px;
+    }
+    .food .food-two img{
+        width: 150px;
+        padding-right: 20px;
+    }
+
+
+
+    .food .food-three{
+    
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 15px;
+        width: 100% !important;
+      
+    }
+    .food .food-three .text{
+        display: flex;
+    
+        flex-direction: column;
+    }
+    .food .food-three .text p{
+    margin-top: -10px;
+        width:100%;
+        font-size: 12px;
+    }
+    .food .food-three img{
+        width: 150px;
+        padding-right: 20px;
+    }
+
+    .slider-container{
+        width: 100%;
+        height: auto;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        background-color: indigo;
+        
+
+    }
+    .slider-container ,.slider-text{
+        display: flex;
+        width: 100% !important;
+        height: 20vh !important;
+        background-color: lightcoral;
+        flex-direction: column;
+        margin-left: 0 !important;
+        margin-right: 0 !important; 
+            
+    }
+    .slider-container ,.slider-text p{
+        width: 80%;
+        margin-left: 0 !important;
+        margin-right: 0 !important; 
+            
+    }
+    .slider-container .slider{
+        background-color: lawngreen;
+        width: 100% !important;
+        display: flex;
+       
+        justify-content: space-around;
+        margin-left: 0 !important;
+    margin-right: 0 !important; 
+        
+    }
+    
+
+
+}
